@@ -52,11 +52,12 @@
 ![image](https://user-images.githubusercontent.com/104038813/193291907-ea5245a5-ce3a-4cba-8e95-d36a480dfa50.png)
 
 ## Summary
-
-
-
-
-
+- All the machine learning models were successful at predicting low risk applicants. 
+- The sampling techniques used had slight variance with accuracy score, precision, and recall. 
+- Both the ensemble classifiers performed better than the previous oversampling and undersampling methods. 
+- The Easy Ensemble AdaBoost Classifier performed the best, with an accuracy score of 92.5% and very high recall (.94 and .97). 
+- Due to the technique used with the AdaBoost classifier to learn from previous mistakes or weaknesses, it was the most effective at predicting high risk credit applicants. 
+- **For determining credit risk, I recommend using the Easy Ensemble AdaBoost Classifier.**
 
 ### Resources
 - SciKit Learn Machine Learning Modules
