@@ -33,18 +33,25 @@
 ![image](https://user-images.githubusercontent.com/104038813/193289726-b6aafd1e-b8e0-4cc1-885d-004ab26919d5.png)
 
 **4. SMOTEENN Combination Sampling**
-- The balanced accuracy score for Cluster Centroids Undersampling was 0.504. 
+- The balanced accuracy score for the SMOTEENN method was 0.504. 
 - The precision for classifying low risk applicants was perfect, a score of 1. However, the precision for classifying high risk applicants was poor, at .01. 
 - The recall (sensitivity) score was .49 for low risk and .67 for high risk.
 ![image](https://user-images.githubusercontent.com/104038813/193290080-4de71711-689b-49e7-ad84-b2b330c113d1.png)
 
 **5. Balanced Random Forest Classifier**
-- The balanced accuracy score for Cluster Centroids Undersampling was 0.788. 
+- The balanced accuracy score for the Balanced Random Forest Classifier was 0.788. 
 - The precision for classifying low risk applicants was perfect, a score of 1. However, the precision for classifying high risk applicants was poor, at .04. 
 - The recall (sensitivity) score was .91 for low risk and .67 for high risk.
 - The priority feautures that were determined using this algorithm were "total_rec_prncp" and "total_rec_int" meaning that the principal and interest on recent loans is valued very high in determining credit risk. 
 ![image](https://user-images.githubusercontent.com/104038813/193290492-73636928-0e4b-45e7-8814-bc2c214dd5c5.png)
 
+**6. Easy Ensemble AdaBoost Classifier**
+- The balanced accuracy score for AdaBoost Classifier was 0.925. 
+- The precision for classifying low risk applicants was perfect, a score of 1. However, the precision for classifying high risk applicants was poor, at .07. 
+- The recall (sensitivity) score was .94 for low risk and .91 for high risk.
+![image](https://user-images.githubusercontent.com/104038813/193291907-ea5245a5-ce3a-4cba-8e95-d36a480dfa50.png)
+
+## Summary
 
 
 
@@ -52,5 +59,6 @@
 
 
 ### Resources
-- R Version 4.2.1, R Studio
-- MSU Bootcamp Module 15: https://courses.bootcampspot.com/courses/2508/assignments/31929?module_item_id=637258
+- SciKit Learn Machine Learning Modules
+- Python 3.7, Jupyter Notebook, Pandas
+- MSU Bootcamp Module 17: https://courses.bootcampspot.com/courses/2508/assignments/31935?module_item_id=637709
