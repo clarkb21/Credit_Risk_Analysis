@@ -38,6 +38,14 @@
 - The recall (sensitivity) score was .49 for low risk and .67 for high risk.
 ![image](https://user-images.githubusercontent.com/104038813/193290080-4de71711-689b-49e7-ad84-b2b330c113d1.png)
 
+**5. Balanced Random Forest Classifier**
+- The balanced accuracy score for Cluster Centroids Undersampling was 0.788. 
+- The precision for classifying low risk applicants was perfect, a score of 1. However, the precision for classifying high risk applicants was poor, at .04. 
+- The recall (sensitivity) score was .91 for low risk and .67 for high risk.
+- The priority feautures that were determined using this algorithm were "total_rec_prncp" and "total_rec_int" meaning that the principal and interest on recent loans is valued very high in determining credit risk. 
+![image](https://user-images.githubusercontent.com/104038813/193290492-73636928-0e4b-45e7-8814-bc2c214dd5c5.png)
+
+
 
 
 
