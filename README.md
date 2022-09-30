@@ -14,23 +14,31 @@
 - Ensemble classifiers were executed to predict credit risk, such as the Balanced Random Forest Classifier and the Easy Ensemble Classifier. 
 
 ## Results
-**1. Naive Random Oversampling ** 
+**1. Naive Random Oversampling**
 - The balanced accuracy score for Random Oversampling was 0.576. 
 - The precision for classifying low risk applicants was perfect, a score of 1. However, the precision for classifying high risk applicants was poor, at .01. 
 - The recall (sensitivity) score was .53 for low risk and .62 for high risk.
 ![image](https://user-images.githubusercontent.com/104038813/193288912-bd967001-8e0f-43b6-9665-e086fa0ab6b1.png)
 
-**2. SMOTE Oversampling **
+**2. SMOTE Oversampling**
 - The balanced accuracy score for SMOTE Oversampling was 0.607. 
 - The precision for classifying low risk applicants was perfect, a score of 1. However, the precision for classifying high risk applicants was poor, at .01. 
 - The recall (sensitivity) score was .67 for low risk and .54 for high risk.
 ![image](https://user-images.githubusercontent.com/104038813/193289246-51328f02-2be1-4154-954e-f974490a7cfc.png)
 
-**3. Cluster Centroids Undersampling **
-- The balanced accuracy score for Cluster Centroids Undersampling was 0.504. 
+**3. Cluster Centroids Undersampling**
+- The balanced accuracy score for Cluster Centroids Undersampling was 0.580. 
 - The precision for classifying low risk applicants was perfect, a score of 1. However, the precision for classifying high risk applicants was poor, at .01. 
 - The recall (sensitivity) score was .47 for low risk and .54 for high risk.
 ![image](https://user-images.githubusercontent.com/104038813/193289726-b6aafd1e-b8e0-4cc1-885d-004ab26919d5.png)
+
+**4. SMOTEENN Combination Sampling**
+- The balanced accuracy score for Cluster Centroids Undersampling was 0.504. 
+- The precision for classifying low risk applicants was perfect, a score of 1. However, the precision for classifying high risk applicants was poor, at .01. 
+- The recall (sensitivity) score was .49 for low risk and .67 for high risk.
+![image](https://user-images.githubusercontent.com/104038813/193290080-4de71711-689b-49e7-ad84-b2b330c113d1.png)
+
+
 
 
 
