@@ -14,9 +14,14 @@
 - Ensemble classifiers were executed to predict credit risk, such as the Balanced Random Forest Classifier and the Easy Ensemble Classifier. 
 
 ## Results
+**1. Naive Random Oversampling ** 
+- The balanced accuracy score for Random Oversampling was 0.576. 
+- The precision for classifying low risk applicants was perfect, a score of 1. However, the precision for classifying high risk applicants was poor, at .01. 
+- The recall (sensitivity) score was .53 for low risk and .62 for high risk.
+![image](https://user-images.githubusercontent.com/104038813/193288912-bd967001-8e0f-43b6-9665-e086fa0ab6b1.png)
 
-** 1. Naive Random Oversampling ** 
-
+**2. SMOTE Oversampling **
+- 
 
 
 ### Resources
